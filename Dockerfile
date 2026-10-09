@@ -21,7 +21,7 @@ RUN git clone --depth 1 --branch main \
     cmake -S /tmp/liboqs -B /tmp/liboqs/build \
     -GNinja \
     -DBUILD_SHARED_LIBS=ON \
-    -DOQS_MINIMAL_BUILD="SIG_ml_dsa_65" \
+    -DOQS_MINIMAL_BUILD="KEM_ml_kem_768;SIG_ml_dsa_65" \
     -DCMAKE_BUILD_TYPE=Release && \
     cmake --build /tmp/liboqs/build --parallel 2 && \
     cmake --install /tmp/liboqs/build && \
