@@ -7,3 +7,4 @@ cryptography
 pydantic
 requests
 numpy
+liboqs-python
