@@ -1,0 +1,13 @@
+__pycache__/
+.venv/
+
+# Private cryptographic keys
+backend/crypto/keys/
+
+# Local project data
+backend/database/*.db
+backend/ledger/*.json
+backend/watermark/*.pdf
+backend/crypto/keys/
+
+backend/watermark/watermark_secret.key
