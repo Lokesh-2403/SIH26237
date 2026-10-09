@@ -4,3 +4,6 @@ flask
 gunicorn
 pycryptodome
 cryptography
+pydantic
+requests
+numpy
