@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const API_BASE = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000";
-
+const API_BASE = import.meta.env.VITE_API_URL || "https://sih26237-1.onrender.com";
 
 type Recipient = {
   recipient_id: string;
